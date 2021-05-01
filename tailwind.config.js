@@ -1,15 +1,17 @@
 module.exports = {
+  mode: 'jit',
   purge: [
+    './storage/framework/views/*.php',
     './resources/**/*.blade.php',
     './resources/**/*.js',
-    './resources/**/*.vue',
+    './resources/**/*.vue'
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
-}
+  plugins: []
+};
